@@ -104,7 +104,7 @@ stty raw -echo; fg
 
 Buscamos la primera flag dentro del **home** del usuario comprometido `www-data`:
 
-``cat FLAG.txt``
+``cat flag.txt``
 
 ![Imagen16](</Iginite/assets/2025-02-06 19_10_53-KaliLinux-Hacking - VMware Workstation.png>)
 
@@ -132,7 +132,7 @@ Ingresamos la contraseña obtenida (`mememe`).
 
 Ya como root, buscamos y mostramos la flag final:
 
-``cat /root/FLAG.txt``
+``cat /root/root.txt``
 
 ![Imagen20](</Iginite/assets/2025-02-06 19_19_53-KaliLinux-Hacking - VMware Workstation.png>)
 
