@@ -6,11 +6,12 @@
 
 Hacemos un escaneo con nmap con el siguiente comando:
 
-![alt text](./assets/image.png)
-
 ```bash
 nmap -A -p- -T4 IP_MAQUINA_ATACADA
 ```
+
+![alt text](./assets/image.png)
+
 
 #### Explicación de los parámetros:
 - `-A`   -> Activar detección de SO, escaneo de scripts y traceroute.
