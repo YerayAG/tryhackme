@@ -1,4 +1,4 @@
-# Bolt
+# Guía de Explotación - TryHackMe Bolt
 
 ## Reconocimiento
 

@@ -1,4 +1,4 @@
-# IGNITE
+# Guía de Explotación - TryHackMe Ignite
 
 ## Reconocimiento
 
