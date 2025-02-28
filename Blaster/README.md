@@ -1,4 +1,4 @@
-# Guía de Explotación - TryHackMe Tech_Supp0rt: 1
+# Guía de Explotación - TryHackMe Blaster
 
 ## 1. Reconocimiento
 
