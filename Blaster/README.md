@@ -18,7 +18,7 @@ Al acceder al puerto **80**, encontramos la página predeterminada de IIS.
 
 ![Página IIS](./assets/image-1.png)
 
-### Enumeración de directorios con Gobuster
+### 2. Enumeración de directorios con Gobuster
 
 Utilizamos `gobuster` para descubrir directorios ocultos en el servidor web:
 
@@ -42,7 +42,7 @@ parzival
 
 ![Credencial descubierta](./assets/image-5.png)
 
-### Acceso mediante RDP
+### 3. Acceso mediante RDP
 
 Usamos **Remmina** para conectarnos a la máquina víctima con las credenciales encontradas:
 
@@ -62,9 +62,11 @@ THM{HACK_PLAYER_ONE}
 
 ---
 
-## 2. Escalada de Privilegios
+## 4. Escalada de Privilegios
 
-En el escritorio de **Wade**, encontramos un archivo sospechoso llamado `hhupd`.
+En el escritorio de **Wade**, encontramos un archivo llamado `hhupd`.
+
+Haciendo una pequeña busquea por Google, vemos que es un archivo de Microsoft, el cual tiene una vulnerabilidad la cual se puede explotar con el CVE 'CVE-2019-1388'. Podemos verlo aqui. [Explotacion](https://github.com/jas502n/CVE-2019-1388)
 
 ![Archivo hhupd](./assets/image-10.png)
 
@@ -99,7 +101,7 @@ cat root.txt
 
 ---
 
-## 3. Post-Explotación y Persistencia
+## 5. Post-Explotación y Persistencia
 
 Ahora configuramos un shell inverso utilizando **Metasploit** con el módulo `exploit/multi/script/web_delivery`.
 

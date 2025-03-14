@@ -167,3 +167,4 @@ Finalmente, accedemos al archivo ``root.txt`` y obtenemos la flag:
 
 ![alt text](./assets/image-23.png)
 
+¡Máquina comprometida con éxito!
